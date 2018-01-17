@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLeeTools_Example' do
+  pod 'JLeeTools', :path => '../'
+
+  target 'JLeeTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
