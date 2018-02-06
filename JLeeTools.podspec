@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLeeTools'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'demo for test'
 
   s.description      = 'A demo for test now, and it will be convenient to develope iOS Apps by obj-c'
