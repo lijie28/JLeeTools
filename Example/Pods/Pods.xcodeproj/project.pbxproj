@@ -7,199 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085BA4200ADE4B807A85265323269E99 /* JLeeTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581126ED42A6804FB7127001524F923 /* JLeeTools-dummy.m */; };
-		30A7CEB869E927284C06EC385F52BBBB /* JLeeTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 475F88F3FABB0E2935A59672B295DB51 /* JLeeTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A93599720295B4800D7EFDD /* JLeeDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A93596C20295B4800D7EFDD /* JLeeDefine.h */; };
-		6A9359D62029935A00D7EFDD /* NSString+JLeeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9359CC2029935A00D7EFDD /* NSString+JLeeTools.m */; };
-		6A9359D72029935A00D7EFDD /* NSObject+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9359CD2029935A00D7EFDD /* NSObject+Tools.h */; };
-		6A9359D82029935A00D7EFDD /* UIViewController+ChangeScrollColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9359CE2029935A00D7EFDD /* UIViewController+ChangeScrollColor.m */; };
-		6A9359D92029935A00D7EFDD /* UILabel+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9359CF2029935A00D7EFDD /* UILabel+Tools.h */; };
-		6A9359DA2029935A00D7EFDD /* UIViewController+JLeeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9359D02029935A00D7EFDD /* UIViewController+JLeeTools.h */; };
-		6A9359DB2029935A00D7EFDD /* NSObject+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9359D12029935A00D7EFDD /* NSObject+Tools.m */; };
-		6A9359DC2029935A00D7EFDD /* NSString+JLeeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9359D22029935A00D7EFDD /* NSString+JLeeTools.h */; };
-		6A9359DD2029935A00D7EFDD /* UIViewController+ChangeScrollColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9359D32029935A00D7EFDD /* UIViewController+ChangeScrollColor.h */; };
-		6A9359DE2029935A00D7EFDD /* UIViewController+JLeeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9359D42029935A00D7EFDD /* UIViewController+JLeeTools.m */; };
-		6A9359DF2029935A00D7EFDD /* UILabel+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9359D52029935A00D7EFDD /* UILabel+Tools.m */; };
-		6A9359E1202993F000D7EFDD /* JLeeTools.h in Sources */ = {isa = PBXBuildFile; fileRef = 6A9359E0202993F000D7EFDD /* JLeeTools.h */; };
-		AB46D2C61B039D48E440DC04A20E5CAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		BF502D17AE5566879AC6713A999D5691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CD538DC1BDF5306B1C1949877153CBEB /* Pods-JLeeTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBB54A7BE3629A59A9A498ECF39407D /* Pods-JLeeTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF2EFD418C5F83A36B805EC30136F730 /* Pods-JLeeTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFA605DEADB794DA801BE24C92F547E /* Pods-JLeeTools_Example-dummy.m */; };
-		E312FD25528978D85F39855D518ACAF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		EA2473BD645D07F88F8FE54129999715 /* Pods-JLeeTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC507368B3B7E4ED80450DCEF8182B2 /* Pods-JLeeTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAD569ED35EE6CDCE9E605946BD03F0C /* Pods-JLeeTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA0B766411C9B6286BDD2A7983A2DA3 /* Pods-JLeeTools_Tests-dummy.m */; };
+		368B750989F10BDF2E3183B0564160DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		577E63016521A8CC417895329D2C07D0 /* UIViewController+JLeeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D9766E021F56ED41D6DF0C181B0927 /* UIViewController+JLeeTools.m */; };
+		72172C0F7791D38689EA32DFEB3B6DF2 /* JLeeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 480BDB5842FF127FEC431BF4A5E61BA3 /* JLeeTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CFFA22BEE97F5B997F1C5BAE9AE8104 /* NSString+JLeeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A661968D7BBEFF6EABDAE3FEBC029077 /* NSString+JLeeTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		872F19D1396CB8C4E0C9C4A5B942017C /* UIViewController+JLeeTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E15CE3E66295FB90FFBB4B33B5A8EF5 /* UIViewController+JLeeTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A240D83765853D57288F9D2F60FDC2 /* UIViewController+ChangeScrollColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B8704D5ED2082183897814F02618CFA3 /* UIViewController+ChangeScrollColor.m */; };
+		A3434223D86F0FB7074DED1BEC91E834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A378D0C3F12F7D181E9709D03CA3DDED /* NSObject+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EDCABB2500267B3C0840707688293E9 /* NSObject+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54DC31C5685B7FC5C22C74ACB1E3D20 /* NSObject+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7B8FA80451D2A0A6FEC3B5ABC11AB /* NSObject+Tools.m */; };
+		BF39B7F5F6FD678B7893C053EAEE170B /* JLeeDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E8E8D9E1CBB500B2440EE89E07EF7F /* JLeeDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0DD5C64FECD48F33207F62FD403FF5D /* JLeeTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6770DE7CD4C1DBEFBDAB4D2BAD57D48 /* JLeeTools-dummy.m */; };
+		CB7CAF9DB6B67A1C6BF6A89B53776670 /* NSString+JLeeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CB423B51E3880B18BE73C575388C9C0D /* NSString+JLeeTools.m */; };
+		CF7BDC88F9000B246580CC315B524C79 /* UILabel+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 71F4557BE398321B0709BA3DE4C25F64 /* UILabel+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE63F2CBB6D89E086FDD4930904F0D3 /* UILabel+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 393B1B95F650F490F1F138A859D3B18B /* UILabel+Tools.m */; };
+		D7DA2B263770C815CCC0AA875E242B4E /* Pods-JLeeTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D49627A744540416B75050CAFE8560AD /* Pods-JLeeTools_Example-dummy.m */; };
+		DCFEB90D06E41645AB7073A7D888EBD5 /* UIViewController+ChangeScrollColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A5B796D3DFEA2377C447CCD506FD715 /* UIViewController+ChangeScrollColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		70D6BF665CBFDAA84F9EA9C79EF9955E /* PBXContainerItemProxy */ = {
+		2CF1C085A80DB726623F8291387A82C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A3EB905DB00AF27DA5326FF5C54C7D9E;
+			remoteGlobalIDString = B1C233E32BC0087EA6D169A89559E7E0;
 			remoteInfo = JLeeTools;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01CDE0AAB6DF769DEC08899D3558E88B /* JLeeTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLeeTools.xcconfig; sourceTree = "<group>"; };
-		03816E17A7CFD4444B57CD70EA3C28FE /* JLeeTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JLeeTools.modulemap; sourceTree = "<group>"; };
-		0CBB54A7BE3629A59A9A498ECF39407D /* Pods-JLeeTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLeeTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		0D7EC26C611FE8C8ABE868932B505A1E /* Pods-JLeeTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLeeTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		24E4F2383595F94503E68FD49BFA004F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2581126ED42A6804FB7127001524F923 /* JLeeTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLeeTools-dummy.m"; sourceTree = "<group>"; };
-		2C5CF94EF465D3CBCFE1A8B107E60B48 /* Pods-JLeeTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLeeTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		475F88F3FABB0E2935A59672B295DB51 /* JLeeTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLeeTools-umbrella.h"; sourceTree = "<group>"; };
-		58899484CEE6F3B9159E0134BE1D4D95 /* Pods-JLeeTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLeeTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		61872BE8356441ACC8D41FF0E2A894E5 /* Pods-JLeeTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLeeTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		61C244B69AC9A114576BCD0AAAFA97D3 /* Pods-JLeeTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLeeTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03E8E8D9E1CBB500B2440EE89E07EF7F /* JLeeDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLeeDefine.h; path = JLeeTools/Classes/JLeeDefine.h; sourceTree = "<group>"; };
+		0A5B796D3DFEA2377C447CCD506FD715 /* UIViewController+ChangeScrollColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ChangeScrollColor.h"; path = "JLeeTools/Classes/JLeeCategory /UIViewController+ChangeScrollColor.h"; sourceTree = "<group>"; };
+		1E3157DDA390347384CCE9A62F82439A /* Pods-JLeeTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLeeTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1EDCABB2500267B3C0840707688293E9 /* NSObject+Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Tools.h"; path = "JLeeTools/Classes/JLeeCategory /NSObject+Tools.h"; sourceTree = "<group>"; };
+		20D9766E021F56ED41D6DF0C181B0927 /* UIViewController+JLeeTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+JLeeTools.m"; path = "JLeeTools/Classes/JLeeCategory /UIViewController+JLeeTools.m"; sourceTree = "<group>"; };
+		393B1B95F650F490F1F138A859D3B18B /* UILabel+Tools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Tools.m"; path = "JLeeTools/Classes/JLeeCategory /UILabel+Tools.m"; sourceTree = "<group>"; };
+		3C2E174A98EA8B5E8F0136235505ABEF /* JLeeTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLeeTools.xcconfig; sourceTree = "<group>"; };
+		3DF644B021A4883A3982DE8B806361D5 /* Pods-JLeeTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLeeTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E15CE3E66295FB90FFBB4B33B5A8EF5 /* UIViewController+JLeeTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+JLeeTools.h"; path = "JLeeTools/Classes/JLeeCategory /UIViewController+JLeeTools.h"; sourceTree = "<group>"; };
+		3FC7B8FA80451D2A0A6FEC3B5ABC11AB /* NSObject+Tools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Tools.m"; path = "JLeeTools/Classes/JLeeCategory /NSObject+Tools.m"; sourceTree = "<group>"; };
+		472DE33E239D5A69C24F372C19EECB65 /* JLeeTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLeeTools-prefix.pch"; sourceTree = "<group>"; };
+		480BDB5842FF127FEC431BF4A5E61BA3 /* JLeeTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLeeTools.h; path = JLeeTools/Classes/JLeeTools.h; sourceTree = "<group>"; };
+		593F0199DC29EC944C66FC4920E5D1A1 /* Pods-JLeeTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLeeTools_Example-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A93596C20295B4800D7EFDD /* JLeeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLeeDefine.h; sourceTree = "<group>"; };
-		6A9359CC2029935A00D7EFDD /* NSString+JLeeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JLeeTools.m"; sourceTree = "<group>"; };
-		6A9359CD2029935A00D7EFDD /* NSObject+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tools.h"; sourceTree = "<group>"; };
-		6A9359CE2029935A00D7EFDD /* UIViewController+ChangeScrollColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChangeScrollColor.m"; sourceTree = "<group>"; };
-		6A9359CF2029935A00D7EFDD /* UILabel+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Tools.h"; sourceTree = "<group>"; };
-		6A9359D02029935A00D7EFDD /* UIViewController+JLeeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JLeeTools.h"; sourceTree = "<group>"; };
-		6A9359D12029935A00D7EFDD /* NSObject+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tools.m"; sourceTree = "<group>"; };
-		6A9359D22029935A00D7EFDD /* NSString+JLeeTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JLeeTools.h"; sourceTree = "<group>"; };
-		6A9359D32029935A00D7EFDD /* UIViewController+ChangeScrollColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChangeScrollColor.h"; sourceTree = "<group>"; };
-		6A9359D42029935A00D7EFDD /* UIViewController+JLeeTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JLeeTools.m"; sourceTree = "<group>"; };
-		6A9359D52029935A00D7EFDD /* UILabel+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Tools.m"; sourceTree = "<group>"; };
-		6A9359E0202993F000D7EFDD /* JLeeTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLeeTools.h; sourceTree = "<group>"; };
-		6FA881560C01C317080B298CAD99D506 /* Pods-JLeeTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLeeTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		749AC1EA563EB27ED78D56E97BCEF778 /* JLeeTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLeeTools-prefix.pch"; sourceTree = "<group>"; };
-		7DFF7E3471A1240DE8E4066A373D92C9 /* Pods_JLeeTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLeeTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80FCF62AF828904DCB947F0F4A51BD72 /* Pods-JLeeTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLeeTools_Example-resources.sh"; sourceTree = "<group>"; };
-		86A4E19A7BBE0C6064FB027C744FEABB /* Pods_JLeeTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLeeTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88EFD0CF6A27027966BA37F7B29F4B3C /* Pods-JLeeTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLeeTools_Tests.modulemap"; sourceTree = "<group>"; };
-		91AB3E15429BAC61BF0960755394F2A8 /* Pods-JLeeTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLeeTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EA0B766411C9B6286BDD2A7983A2DA3 /* Pods-JLeeTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLeeTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		AE670CFF6D3782A10854B199C356FFFE /* Pods-JLeeTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JLeeTools_Example.modulemap"; sourceTree = "<group>"; };
-		BBFA605DEADB794DA801BE24C92F547E /* Pods-JLeeTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLeeTools_Example-dummy.m"; sourceTree = "<group>"; };
-		C41BDB9CA74627BCD1282EF449616EB9 /* Pods-JLeeTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLeeTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C480F85762D67D92A90A47BF90111C2B /* JLeeTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLeeTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4922D429F1E727E149B44FB213B5F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCC507368B3B7E4ED80450DCEF8182B2 /* Pods-JLeeTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLeeTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D43C0FAB7CE00A9066EE60864B9544D8 /* Pods-JLeeTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLeeTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E95C7B022D49DD30D57D3E1881031C61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6039F9B6ECE9B654C67307DBC0492C4 /* Pods-JLeeTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLeeTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FDF4C3A165E6734BA08DA53A51670E8A /* Pods-JLeeTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLeeTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		71F4557BE398321B0709BA3DE4C25F64 /* UILabel+Tools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Tools.h"; path = "JLeeTools/Classes/JLeeCategory /UILabel+Tools.h"; sourceTree = "<group>"; };
+		7968A5A88E7485E8F6D7214E9A33D725 /* libPods-JLeeTools_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JLeeTools_Example.a"; path = "libPods-JLeeTools_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA09AEB87ADF755493D067372C8FF04 /* Pods-JLeeTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLeeTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		92EC13ECFB5DC6BA3472B29FD737CDD4 /* Pods-JLeeTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLeeTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A661968D7BBEFF6EABDAE3FEBC029077 /* NSString+JLeeTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JLeeTools.h"; path = "JLeeTools/Classes/JLeeCategory /NSString+JLeeTools.h"; sourceTree = "<group>"; };
+		B8704D5ED2082183897814F02618CFA3 /* UIViewController+ChangeScrollColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ChangeScrollColor.m"; path = "JLeeTools/Classes/JLeeCategory /UIViewController+ChangeScrollColor.m"; sourceTree = "<group>"; };
+		C6770DE7CD4C1DBEFBDAB4D2BAD57D48 /* JLeeTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLeeTools-dummy.m"; sourceTree = "<group>"; };
+		CB423B51E3880B18BE73C575388C9C0D /* NSString+JLeeTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JLeeTools.m"; path = "JLeeTools/Classes/JLeeCategory /NSString+JLeeTools.m"; sourceTree = "<group>"; };
+		D49627A744540416B75050CAFE8560AD /* Pods-JLeeTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLeeTools_Example-dummy.m"; sourceTree = "<group>"; };
+		D922274080F90895B5A8D34C856D35A6 /* Pods-JLeeTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLeeTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F2B06A1B791E11A8A58A97845B5A307F /* libJLeeTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJLeeTools.a; path = libJLeeTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4C7F7DC7FE44218936FF16E22BD98B3A /* Frameworks */ = {
+		7F3A3EBB1D496D06A54C9E09D4DFEC86 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF502D17AE5566879AC6713A999D5691 /* Foundation.framework in Frameworks */,
+				A3434223D86F0FB7074DED1BEC91E834 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BBD73E6E22CCD347D68E4B60C582FA9 /* Frameworks */ = {
+		DD2752A7FBB7A4BBF1C05A6567D7B847 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB46D2C61B039D48E440DC04A20E5CAE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEAE5D1D32D7F7728729356FAFD07B18 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E312FD25528978D85F39855D518ACAF3 /* Foundation.framework in Frameworks */,
+				368B750989F10BDF2E3183B0564160DB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		493C44D7A03FC8DA380ACE032D3A7406 /* Pods-JLeeTools_Example */ = {
-			isa = PBXGroup;
-			children = (
-				24E4F2383595F94503E68FD49BFA004F /* Info.plist */,
-				AE670CFF6D3782A10854B199C356FFFE /* Pods-JLeeTools_Example.modulemap */,
-				61C244B69AC9A114576BCD0AAAFA97D3 /* Pods-JLeeTools_Example-acknowledgements.markdown */,
-				58899484CEE6F3B9159E0134BE1D4D95 /* Pods-JLeeTools_Example-acknowledgements.plist */,
-				BBFA605DEADB794DA801BE24C92F547E /* Pods-JLeeTools_Example-dummy.m */,
-				91AB3E15429BAC61BF0960755394F2A8 /* Pods-JLeeTools_Example-frameworks.sh */,
-				80FCF62AF828904DCB947F0F4A51BD72 /* Pods-JLeeTools_Example-resources.sh */,
-				0CBB54A7BE3629A59A9A498ECF39407D /* Pods-JLeeTools_Example-umbrella.h */,
-				C41BDB9CA74627BCD1282EF449616EB9 /* Pods-JLeeTools_Example.debug.xcconfig */,
-				6FA881560C01C317080B298CAD99D506 /* Pods-JLeeTools_Example.release.xcconfig */,
-			);
-			name = "Pods-JLeeTools_Example";
-			path = "Target Support Files/Pods-JLeeTools_Example";
-			sourceTree = "<group>";
-		};
-		6074004406BA9EAB424F0EAA79761724 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6A9359E0202993F000D7EFDD /* JLeeTools.h */,
-				6A93596C20295B4800D7EFDD /* JLeeDefine.h */,
-				6A9359CB2029935A00D7EFDD /* JLeeCategory  */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		6A9359CB2029935A00D7EFDD /* JLeeCategory  */ = {
-			isa = PBXGroup;
-			children = (
-				6A9359CD2029935A00D7EFDD /* NSObject+Tools.h */,
-				6A9359CF2029935A00D7EFDD /* UILabel+Tools.h */,
-				6A9359D22029935A00D7EFDD /* NSString+JLeeTools.h */,
-				6A9359D02029935A00D7EFDD /* UIViewController+JLeeTools.h */,
-				6A9359D32029935A00D7EFDD /* UIViewController+ChangeScrollColor.h */,
-				6A9359CC2029935A00D7EFDD /* NSString+JLeeTools.m */,
-				6A9359CE2029935A00D7EFDD /* UIViewController+ChangeScrollColor.m */,
-				6A9359D12029935A00D7EFDD /* NSObject+Tools.m */,
-				6A9359D42029935A00D7EFDD /* UIViewController+JLeeTools.m */,
-				6A9359D52029935A00D7EFDD /* UILabel+Tools.m */,
-			);
-			path = "JLeeCategory ";
-			sourceTree = "<group>";
-		};
-		701E623E336D14ADB2ED31560F09CEDC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C480F85762D67D92A90A47BF90111C2B /* JLeeTools.framework */,
-				86A4E19A7BBE0C6064FB027C744FEABB /* Pods_JLeeTools_Example.framework */,
-				7DFF7E3471A1240DE8E4066A373D92C9 /* Pods_JLeeTools_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B7987447A1117D7F2D60AF67897EDCB9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				701E623E336D14ADB2ED31560F09CEDC /* Products */,
-				D22628A5BFEA6648F6088237059F1030 /* Targets Support Files */,
+				EFD54DE5A649568CEA1E0122E9CAC754 /* Pods */,
+				D192EFDC36248E60CC0EF8D084E26255 /* Products */,
+				D769D3D33215E492948D73E27DA435EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		933380DE6170A60E0592ADBE15E7BFB1 /* Support Files */ = {
+		9E8AC7CF1DE968629A85952318BD9D7E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB4922D429F1E727E149B44FB213B5F9 /* Info.plist */,
-				03816E17A7CFD4444B57CD70EA3C28FE /* JLeeTools.modulemap */,
-				01CDE0AAB6DF769DEC08899D3558E88B /* JLeeTools.xcconfig */,
-				2581126ED42A6804FB7127001524F923 /* JLeeTools-dummy.m */,
-				749AC1EA563EB27ED78D56E97BCEF778 /* JLeeTools-prefix.pch */,
-				475F88F3FABB0E2935A59672B295DB51 /* JLeeTools-umbrella.h */,
+				3C2E174A98EA8B5E8F0136235505ABEF /* JLeeTools.xcconfig */,
+				C6770DE7CD4C1DBEFBDAB4D2BAD57D48 /* JLeeTools-dummy.m */,
+				472DE33E239D5A69C24F372C19EECB65 /* JLeeTools-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JLeeTools";
+			path = "../Target Support Files/JLeeTools";
 			sourceTree = "<group>";
 		};
-		B7987447A1117D7F2D60AF67897EDCB9 /* Development Pods */ = {
+		A1EF8E9C3F0E07663C55402CC2189941 /* Pods-JLeeTools_Example */ = {
 			isa = PBXGroup;
 			children = (
-				C1836EA8F7ED363D6C19E85CA486F4C2 /* JLeeTools */,
+				8AA09AEB87ADF755493D067372C8FF04 /* Pods-JLeeTools_Example-acknowledgements.markdown */,
+				D922274080F90895B5A8D34C856D35A6 /* Pods-JLeeTools_Example-acknowledgements.plist */,
+				D49627A744540416B75050CAFE8560AD /* Pods-JLeeTools_Example-dummy.m */,
+				92EC13ECFB5DC6BA3472B29FD737CDD4 /* Pods-JLeeTools_Example-frameworks.sh */,
+				593F0199DC29EC944C66FC4920E5D1A1 /* Pods-JLeeTools_Example-resources.sh */,
+				3DF644B021A4883A3982DE8B806361D5 /* Pods-JLeeTools_Example.debug.xcconfig */,
+				1E3157DDA390347384CCE9A62F82439A /* Pods-JLeeTools_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-JLeeTools_Example";
+			path = "Target Support Files/Pods-JLeeTools_Example";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -210,23 +129,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C1836EA8F7ED363D6C19E85CA486F4C2 /* JLeeTools */ = {
+		CC1462F699D7BFABA0E44D1A12A40279 /* JLeeTools */ = {
 			isa = PBXGroup;
 			children = (
-				F1A045D4B1504C7FB9E018F2CD88F768 /* JLeeTools */,
-				933380DE6170A60E0592ADBE15E7BFB1 /* Support Files */,
+				03E8E8D9E1CBB500B2440EE89E07EF7F /* JLeeDefine.h */,
+				480BDB5842FF127FEC431BF4A5E61BA3 /* JLeeTools.h */,
+				1EDCABB2500267B3C0840707688293E9 /* NSObject+Tools.h */,
+				3FC7B8FA80451D2A0A6FEC3B5ABC11AB /* NSObject+Tools.m */,
+				A661968D7BBEFF6EABDAE3FEBC029077 /* NSString+JLeeTools.h */,
+				CB423B51E3880B18BE73C575388C9C0D /* NSString+JLeeTools.m */,
+				71F4557BE398321B0709BA3DE4C25F64 /* UILabel+Tools.h */,
+				393B1B95F650F490F1F138A859D3B18B /* UILabel+Tools.m */,
+				0A5B796D3DFEA2377C447CCD506FD715 /* UIViewController+ChangeScrollColor.h */,
+				B8704D5ED2082183897814F02618CFA3 /* UIViewController+ChangeScrollColor.m */,
+				3E15CE3E66295FB90FFBB4B33B5A8EF5 /* UIViewController+JLeeTools.h */,
+				20D9766E021F56ED41D6DF0C181B0927 /* UIViewController+JLeeTools.m */,
+				9E8AC7CF1DE968629A85952318BD9D7E /* Support Files */,
 			);
 			name = JLeeTools;
-			path = ../..;
+			path = JLeeTools;
 			sourceTree = "<group>";
 		};
-		D22628A5BFEA6648F6088237059F1030 /* Targets Support Files */ = {
+		D192EFDC36248E60CC0EF8D084E26255 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				493C44D7A03FC8DA380ACE032D3A7406 /* Pods-JLeeTools_Example */,
-				E8B6D250A0D6A03ABF6DEAF6CCA1BE79 /* Pods-JLeeTools_Tests */,
+				F2B06A1B791E11A8A58A97845B5A307F /* libJLeeTools.a */,
+				7968A5A88E7485E8F6D7214E9A33D725 /* libPods-JLeeTools_Example.a */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -237,93 +167,66 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E8B6D250A0D6A03ABF6DEAF6CCA1BE79 /* Pods-JLeeTools_Tests */ = {
+		D769D3D33215E492948D73E27DA435EF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E95C7B022D49DD30D57D3E1881031C61 /* Info.plist */,
-				88EFD0CF6A27027966BA37F7B29F4B3C /* Pods-JLeeTools_Tests.modulemap */,
-				2C5CF94EF465D3CBCFE1A8B107E60B48 /* Pods-JLeeTools_Tests-acknowledgements.markdown */,
-				61872BE8356441ACC8D41FF0E2A894E5 /* Pods-JLeeTools_Tests-acknowledgements.plist */,
-				9EA0B766411C9B6286BDD2A7983A2DA3 /* Pods-JLeeTools_Tests-dummy.m */,
-				D43C0FAB7CE00A9066EE60864B9544D8 /* Pods-JLeeTools_Tests-frameworks.sh */,
-				FDF4C3A165E6734BA08DA53A51670E8A /* Pods-JLeeTools_Tests-resources.sh */,
-				CCC507368B3B7E4ED80450DCEF8182B2 /* Pods-JLeeTools_Tests-umbrella.h */,
-				0D7EC26C611FE8C8ABE868932B505A1E /* Pods-JLeeTools_Tests.debug.xcconfig */,
-				F6039F9B6ECE9B654C67307DBC0492C4 /* Pods-JLeeTools_Tests.release.xcconfig */,
+				A1EF8E9C3F0E07663C55402CC2189941 /* Pods-JLeeTools_Example */,
 			);
-			name = "Pods-JLeeTools_Tests";
-			path = "Target Support Files/Pods-JLeeTools_Tests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F1A045D4B1504C7FB9E018F2CD88F768 /* JLeeTools */ = {
+		EFD54DE5A649568CEA1E0122E9CAC754 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6074004406BA9EAB424F0EAA79761724 /* Classes */,
+				CC1462F699D7BFABA0E44D1A12A40279 /* JLeeTools */,
 			);
-			path = JLeeTools;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5EB7007504B7F65B7FD294B6CA0A648E /* Headers */ = {
+		AFD747EC23BD2D69AB2E9B3B8D617D18 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A7CEB869E927284C06EC385F52BBBB /* JLeeTools-umbrella.h in Headers */,
-				6A9359DD2029935A00D7EFDD /* UIViewController+ChangeScrollColor.h in Headers */,
-				6A93599720295B4800D7EFDD /* JLeeDefine.h in Headers */,
-				6A9359DC2029935A00D7EFDD /* NSString+JLeeTools.h in Headers */,
-				6A9359D72029935A00D7EFDD /* NSObject+Tools.h in Headers */,
-				6A9359D92029935A00D7EFDD /* UILabel+Tools.h in Headers */,
-				6A9359DA2029935A00D7EFDD /* UIViewController+JLeeTools.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9333AB8D3D5F50B9B5F3DAE36C45AFB9 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA2473BD645D07F88F8FE54129999715 /* Pods-JLeeTools_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB91D3A71F6928A1C4F6636526887D0A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD538DC1BDF5306B1C1949877153CBEB /* Pods-JLeeTools_Example-umbrella.h in Headers */,
+				BF39B7F5F6FD678B7893C053EAEE170B /* JLeeDefine.h in Headers */,
+				72172C0F7791D38689EA32DFEB3B6DF2 /* JLeeTools.h in Headers */,
+				A378D0C3F12F7D181E9709D03CA3DDED /* NSObject+Tools.h in Headers */,
+				7CFFA22BEE97F5B997F1C5BAE9AE8104 /* NSString+JLeeTools.h in Headers */,
+				CF7BDC88F9000B246580CC315B524C79 /* UILabel+Tools.h in Headers */,
+				DCFEB90D06E41645AB7073A7D888EBD5 /* UIViewController+ChangeScrollColor.h in Headers */,
+				872F19D1396CB8C4E0C9C4A5B942017C /* UIViewController+JLeeTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F1EC353751F48A772B84004300C1C1D /* Pods-JLeeTools_Example */ = {
+		5315C0D5CAE0E27F02D3942FFE265250 /* Pods-JLeeTools_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 152FA3998CF8BF6A77802BA18E7924FC /* Build configuration list for PBXNativeTarget "Pods-JLeeTools_Example" */;
+			buildConfigurationList = D07312CF18386BBE78B2F5048F1611B3 /* Build configuration list for PBXNativeTarget "Pods-JLeeTools_Example" */;
 			buildPhases = (
-				DBFFFFC6D4C9C799EF4F43594AF87F06 /* Sources */,
-				FEAE5D1D32D7F7728729356FAFD07B18 /* Frameworks */,
-				DB91D3A71F6928A1C4F6636526887D0A /* Headers */,
+				1B33872BE1C41B70E0C408916E1B4556 /* Sources */,
+				7F3A3EBB1D496D06A54C9E09D4DFEC86 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CA1A6044311BCB1E9519D9CB5843614E /* PBXTargetDependency */,
+				9D7B97CB29513C58E10DE653F19F1E19 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLeeTools_Example";
 			productName = "Pods-JLeeTools_Example";
-			productReference = 86A4E19A7BBE0C6064FB027C744FEABB /* Pods_JLeeTools_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 7968A5A88E7485E8F6D7214E9A33D725 /* libPods-JLeeTools_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		A3EB905DB00AF27DA5326FF5C54C7D9E /* JLeeTools */ = {
+		B1C233E32BC0087EA6D169A89559E7E0 /* JLeeTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70E4B847EE8E848C4769218DA9C55155 /* Build configuration list for PBXNativeTarget "JLeeTools" */;
+			buildConfigurationList = DDABDF5C0FBCB629C4B82DB630174657 /* Build configuration list for PBXNativeTarget "JLeeTools" */;
 			buildPhases = (
-				8A6CE7549C5A2F24B8DEB175A82866E7 /* Sources */,
-				7BBD73E6E22CCD347D68E4B60C582FA9 /* Frameworks */,
-				5EB7007504B7F65B7FD294B6CA0A648E /* Headers */,
+				6EEE7CC4A9EAB8E9EC87B41D77261B8D /* Sources */,
+				DD2752A7FBB7A4BBF1C05A6567D7B847 /* Frameworks */,
+				AFD747EC23BD2D69AB2E9B3B8D617D18 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -331,25 +234,8 @@
 			);
 			name = JLeeTools;
 			productName = JLeeTools;
-			productReference = C480F85762D67D92A90A47BF90111C2B /* JLeeTools.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E83AEFF86ACDA4D3CF126AF8CDE52F58 /* Pods-JLeeTools_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F199AD7E3111BB88F8780C8BE6AF715 /* Build configuration list for PBXNativeTarget "Pods-JLeeTools_Tests" */;
-			buildPhases = (
-				5F296806EEA36AB3BA3A3A9A13AA5789 /* Sources */,
-				4C7F7DC7FE44218936FF16E22BD98B3A /* Frameworks */,
-				9333AB8D3D5F50B9B5F3DAE36C45AFB9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-JLeeTools_Tests";
-			productName = "Pods-JLeeTools_Tests";
-			productReference = 7DFF7E3471A1240DE8E4066A373D92C9 /* Pods_JLeeTools_Tests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = F2B06A1B791E11A8A58A97845B5A307F /* libJLeeTools.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -368,315 +254,51 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 701E623E336D14ADB2ED31560F09CEDC /* Products */;
+			productRefGroup = D192EFDC36248E60CC0EF8D084E26255 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3EB905DB00AF27DA5326FF5C54C7D9E /* JLeeTools */,
-				1F1EC353751F48A772B84004300C1C1D /* Pods-JLeeTools_Example */,
-				E83AEFF86ACDA4D3CF126AF8CDE52F58 /* Pods-JLeeTools_Tests */,
+				B1C233E32BC0087EA6D169A89559E7E0 /* JLeeTools */,
+				5315C0D5CAE0E27F02D3942FFE265250 /* Pods-JLeeTools_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F296806EEA36AB3BA3A3A9A13AA5789 /* Sources */ = {
+		1B33872BE1C41B70E0C408916E1B4556 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD569ED35EE6CDCE9E605946BD03F0C /* Pods-JLeeTools_Tests-dummy.m in Sources */,
+				D7DA2B263770C815CCC0AA875E242B4E /* Pods-JLeeTools_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A6CE7549C5A2F24B8DEB175A82866E7 /* Sources */ = {
+		6EEE7CC4A9EAB8E9EC87B41D77261B8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A9359E1202993F000D7EFDD /* JLeeTools.h in Sources */,
-				6A9359DF2029935A00D7EFDD /* UILabel+Tools.m in Sources */,
-				085BA4200ADE4B807A85265323269E99 /* JLeeTools-dummy.m in Sources */,
-				6A9359D82029935A00D7EFDD /* UIViewController+ChangeScrollColor.m in Sources */,
-				6A9359D62029935A00D7EFDD /* NSString+JLeeTools.m in Sources */,
-				6A9359DB2029935A00D7EFDD /* NSObject+Tools.m in Sources */,
-				6A9359DE2029935A00D7EFDD /* UIViewController+JLeeTools.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DBFFFFC6D4C9C799EF4F43594AF87F06 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF2EFD418C5F83A36B805EC30136F730 /* Pods-JLeeTools_Example-dummy.m in Sources */,
+				C0DD5C64FECD48F33207F62FD403FF5D /* JLeeTools-dummy.m in Sources */,
+				A54DC31C5685B7FC5C22C74ACB1E3D20 /* NSObject+Tools.m in Sources */,
+				CB7CAF9DB6B67A1C6BF6A89B53776670 /* NSString+JLeeTools.m in Sources */,
+				CFE63F2CBB6D89E086FDD4930904F0D3 /* UILabel+Tools.m in Sources */,
+				99A240D83765853D57288F9D2F60FDC2 /* UIViewController+ChangeScrollColor.m in Sources */,
+				577E63016521A8CC417895329D2C07D0 /* UIViewController+JLeeTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CA1A6044311BCB1E9519D9CB5843614E /* PBXTargetDependency */ = {
+		9D7B97CB29513C58E10DE653F19F1E19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JLeeTools;
-			target = A3EB905DB00AF27DA5326FF5C54C7D9E /* JLeeTools */;
-			targetProxy = 70D6BF665CBFDAA84F9EA9C79EF9955E /* PBXContainerItemProxy */;
+			target = B1C233E32BC0087EA6D169A89559E7E0 /* JLeeTools */;
+			targetProxy = 2CF1C085A80DB726623F8291387A82C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		20BF77BBECE25F83D1AE8CE3697D90F0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6039F9B6ECE9B654C67307DBC0492C4 /* Pods-JLeeTools_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JLeeTools_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLeeTools_Tests/Pods-JLeeTools_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JLeeTools_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B2F74D74547DA4B40CC86C064EAEC62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01CDE0AAB6DF769DEC08899D3558E88B /* JLeeTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JLeeTools/JLeeTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLeeTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JLeeTools/JLeeTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JLeeTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		46A4B02B571C6EE57A959FF4E3524AA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C41BDB9CA74627BCD1282EF449616EB9 /* Pods-JLeeTools_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JLeeTools_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLeeTools_Example/Pods-JLeeTools_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JLeeTools_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		71B8DD0E4C780E0420A3D342E18EB1A5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01CDE0AAB6DF769DEC08899D3558E88B /* JLeeTools.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JLeeTools/JLeeTools-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLeeTools/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JLeeTools/JLeeTools.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JLeeTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A23B230A0E7D5BBF295B94F5983EE7B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D7EC26C611FE8C8ABE868932B505A1E /* Pods-JLeeTools_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JLeeTools_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLeeTools_Tests/Pods-JLeeTools_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JLeeTools_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C4C412258A2F8F16FD9A8F31035467E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FA881560C01C317080B298CAD99D506 /* Pods-JLeeTools_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JLeeTools_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JLeeTools_Example/Pods-JLeeTools_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_JLeeTools_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -716,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -725,41 +347,170 @@
 			};
 			name = Debug;
 		};
+		28E98A60AC3951845E39A844A7AF97D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2E174A98EA8B5E8F0136235505ABEF /* JLeeTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLeeTools/JLeeTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8950CFA76AC8DBF1FD3B5E6CA69B6E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2E174A98EA8B5E8F0136235505ABEF /* JLeeTools.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JLeeTools/JLeeTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		981716B4471F26680AEA804F0B6DC50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E3157DDA390347384CCE9A62F82439A /* Pods-JLeeTools_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9DFF47521D45770105C38A55A22557EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF644B021A4883A3982DE8B806361D5 /* Pods-JLeeTools_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		152FA3998CF8BF6A77802BA18E7924FC /* Build configuration list for PBXNativeTarget "Pods-JLeeTools_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46A4B02B571C6EE57A959FF4E3524AA1 /* Debug */,
-				C4C412258A2F8F16FD9A8F31035467E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EED546DBB23FC32035C9BDC4E22B30BD /* Debug */,
-				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F199AD7E3111BB88F8780C8BE6AF715 /* Build configuration list for PBXNativeTarget "Pods-JLeeTools_Tests" */ = {
+		D07312CF18386BBE78B2F5048F1611B3 /* Build configuration list for PBXNativeTarget "Pods-JLeeTools_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A23B230A0E7D5BBF295B94F5983EE7B1 /* Debug */,
-				20BF77BBECE25F83D1AE8CE3697D90F0 /* Release */,
+				9DFF47521D45770105C38A55A22557EC /* Debug */,
+				981716B4471F26680AEA804F0B6DC50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70E4B847EE8E848C4769218DA9C55155 /* Build configuration list for PBXNativeTarget "JLeeTools" */ = {
+		DDABDF5C0FBCB629C4B82DB630174657 /* Build configuration list for PBXNativeTarget "JLeeTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				71B8DD0E4C780E0420A3D342E18EB1A5 /* Debug */,
-				3B2F74D74547DA4B40CC86C064EAEC62 /* Release */,
+				28E98A60AC3951845E39A844A7AF97D3 /* Debug */,
+				8950CFA76AC8DBF1FD3B5E6CA69B6E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
