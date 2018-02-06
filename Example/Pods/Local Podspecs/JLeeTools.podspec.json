@@ -1,0 +1,22 @@
+{
+  "name": "JLeeTools",
+  "version": "0.1.0",
+  "summary": "A short description of JLeeTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lijie9228@hotmail.com/JLeeTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lijie9228@hotmail.com": "lijie9228@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lijie9228@hotmail.com/JLeeTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JLeeTools/Classes/**/*"
+}
