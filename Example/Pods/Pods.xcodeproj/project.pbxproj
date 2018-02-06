@@ -145,14 +145,14 @@
 		6A9359CB2029935A00D7EFDD /* JLeeCategory  */ = {
 			isa = PBXGroup;
 			children = (
-				6A9359CC2029935A00D7EFDD /* NSString+JLeeTools.m */,
 				6A9359CD2029935A00D7EFDD /* NSObject+Tools.h */,
-				6A9359CE2029935A00D7EFDD /* UIViewController+ChangeScrollColor.m */,
 				6A9359CF2029935A00D7EFDD /* UILabel+Tools.h */,
-				6A9359D02029935A00D7EFDD /* UIViewController+JLeeTools.h */,
-				6A9359D12029935A00D7EFDD /* NSObject+Tools.m */,
 				6A9359D22029935A00D7EFDD /* NSString+JLeeTools.h */,
+				6A9359D02029935A00D7EFDD /* UIViewController+JLeeTools.h */,
 				6A9359D32029935A00D7EFDD /* UIViewController+ChangeScrollColor.h */,
+				6A9359CC2029935A00D7EFDD /* NSString+JLeeTools.m */,
+				6A9359CE2029935A00D7EFDD /* UIViewController+ChangeScrollColor.m */,
+				6A9359D12029935A00D7EFDD /* NSObject+Tools.m */,
 				6A9359D42029935A00D7EFDD /* UIViewController+JLeeTools.m */,
 				6A9359D52029935A00D7EFDD /* UILabel+Tools.m */,
 			);

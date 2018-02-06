@@ -1,7 +1,8 @@
 platform :ios, ‘8.0’
 
-target 'JLeeTools' do
+target 'JLeeTools_Example' do
     
-pod 'JLeeTools', :podspec => '/Users/lijie/Documents/GitHub/JLeeTools/JLeeTools.podspec'
+pod 'JLeeTools'
+    
 end
 

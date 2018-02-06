@@ -1,6 +1,0 @@
-framework module JLeeTools {
-  umbrella header "JLeeTools-umbrella.h"
-
-  export *
-  module * { export * }
-}
