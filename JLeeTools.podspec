@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'A demo for test now, and it will be convenient to develope iOS Apps by obj-c'
 
-  s.homepage         = 'https://github.com/lijie28/JLeeTools.git'
+  s.homepage         = 'https://github.com/lijie28/JLeeTools'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lijie9228@hotmail.com' => 'lijie9228@hotmail.com' }
