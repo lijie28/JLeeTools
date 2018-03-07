@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLeeTools'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = 'differentiate package'
   s.description      = 'A demo for test now, and it will be convenient to develope iOS Apps by obj-c'
   s.homepage         = 'https://github.com/lijie28/JLeeTools'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/lijie28/JLeeTools.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   # s.dependency 'AFNetworking', '~> 2.0'
-  s.source_files = 'JLeeTools/Classes/**/*'
+  s.source_files = 'JLeeTools/Classes/*'
 
   s.subspec 'NetWork' do |snk|
       snk.source_files = 'JLeeTools/Classes/NetWork/**/*'

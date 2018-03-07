@@ -20,19 +20,20 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - JLeeTools (0.2.1):
-    - AFNetworking (~> 2.0)
-  - MBProgressHUD (1.1.0)
+  - JLeeTools (0.2.3):
+    - JLeeTools/JLeeCategory (= 0.2.3)
+    - JLeeTools/NetWork (= 0.2.3)
+  - JLeeTools/JLeeCategory (0.2.3)
+  - JLeeTools/NetWork (0.2.3):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
-  - JLeeTools (~> 0.2.1)
-  - MBProgressHUD
+  - JLeeTools (~> 0.2.3)
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  JLeeTools: 586ba87378f260c108f7230d778ef724189d70f4
-  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  JLeeTools: c0c3ebd31726c2f7c8a5abfa88f9118478ead4a3
 
-PODFILE CHECKSUM: e70c4e6991c29fe2b5170e451af2700054d0a0bd
+PODFILE CHECKSUM: ff30c2415e2d65f839f0d7937651cf09239758a7
 
 COCOAPODS: 1.4.0
