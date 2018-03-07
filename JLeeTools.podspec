@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLeeTools'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'add network filds'
 
   s.description      = 'A demo for test now, and it will be convenient to develope iOS Apps by obj-c'
@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'JLeeTools/Classes/**/*'
   s.dependency 'AFNetworking', '~> 2.0'
-  s.dependency 'MBProgressHUD', '~> 1.0.0’
   
 end
