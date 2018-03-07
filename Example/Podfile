@@ -2,8 +2,8 @@ platform :ios, ‘8.0’
 
 target 'JLeeTools_Example' do
     
-pod'JLeeTools','~> 0.1.3'
-pod 'AFNetworking', '~> 2.0'
+pod'JLeeTools','~> 0.2.1'
+pod'MBProgressHUD'
     
 end
 

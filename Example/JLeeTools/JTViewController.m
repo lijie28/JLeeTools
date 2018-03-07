@@ -8,7 +8,6 @@
 
 #import "JTViewController.h"
 #import "JLeeTools.h"
-#import "JLeeRequest.h"
 
 //#import <AFNetworking/AFNetworking.h>
 @interface JTViewController ()

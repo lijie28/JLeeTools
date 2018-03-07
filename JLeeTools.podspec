@@ -2,8 +2,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JLeeTools'
-  s.version          = '0.2.1'
-  s.summary          = 'add network filds'
+  s.version          = '0.2.2'
+  s.summary          = ' network bugs fix'
 
   s.description      = 'A demo for test now, and it will be convenient to develope iOS Apps by obj-c'
 

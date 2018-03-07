@@ -11,6 +11,9 @@
 #import "UILabel+Tools.h"
 #import "UIViewController+JLeeTools.h"
 #import "UIViewController+ChangeScrollColor.h"
+#import "JLeeRequest.h"
+#import "JLeeUrl.h"
+
 
 //#import "NSString+JLeeTools.h"
 //#import ""
